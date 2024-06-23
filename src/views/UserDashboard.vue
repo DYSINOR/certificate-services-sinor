@@ -22,6 +22,7 @@ import SideBar from "@/components/user-dashboard/SideBar.vue";
 import ContainDash from "@/components/user-dashboard/ContainDash.vue";
 import FootDash from "@/components/user-dashboard/FootDash.vue";
 import NavHeader from "@/components/user-dashboard/NavHeader.vue";
+import SinoHeader from "@/components/user-dashboard/Header.vue";
 
 export default {
   components: {
@@ -29,6 +30,7 @@ export default {
     ContainDash,
     FootDash,
     NavHeader,
+    SinoHeader,
   },
   mounted() {
     //on mounted
